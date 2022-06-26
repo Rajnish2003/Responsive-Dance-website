@@ -1,0 +1,118 @@
+*{
+    margin: 0px 0px;
+    box-sizing: border-box;
+    padding: 0px 0px;
+}
+#logo img {
+    height: 51px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    filter: invert(1);
+}
+#logo p{
+    margin-left: 11px;
+    color: white;
+}
+
+#navbar{
+    background-color: #d43b3b;
+    font-family: 'Yeon Sung' ;
+    padding: 13px, 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 8px 0px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    text-decoration: none;
+    padding: 13px 20px;
+    color: white;
+}
+#navbar li a:hover{
+    color: black;  
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/Wallpaper.jpg") ;
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+
+#missionsection{
+    height: 350px;
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+#missionsection h2{
+    text-align: center;
+    font-size: 36px;
+    margin: 14px 0px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 29%;
+    height: 240px;
+    margin: 6px 19px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card img{
+    height: 140px;
+    width: 100px;
+    margin: 6px 12px;
+}
+
+.card-box{
+    display: flex;
+}
+
+#sponsorsSection{
+    height: 220px;
+    margin: auto;
+    background-color: #fbd6d6c7;
+}
+#sponsorsSection h2{
+    text-align: center;
+    font-size: 36px;
+    
+}
+#sponsors img{
+    height: 80px;
+    width: 100px;
+    margin: 30px;  
+}
+
+#footer{
+    background-color: black;
+    height: 52px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

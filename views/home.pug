@@ -1,0 +1,37 @@
+extends base.pug
+
+block scripts 
+     script(src='/static/index.js') 
+
+block style 
+     style
+      include ../static/style.css  
+
+block content 
+ section#introSection
+        div Welcome to Rajnish's Dance Academy
+        div.small Eat Sleep Dance Repeat
+ section#missionsection        
+        h2 Our mission
+        div.card
+          h3 Dance Perfection
+          div.card-box
+            img(src="/static/1.png")
+            p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur asperiores totam natus? Provident totam repudiandae repellendus. Cupiditate, voluptatum ducimus iste aut ipsa, nihil quibusdam sequi a at suscipit beatae. Voluptatum.
+        div.card
+          h3 Dance the way you like
+          div.card-box
+            img(src="/static/2.png")
+            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto enim culpa, debitis dolore earum delectus reprehenderit iste atque illum est harum alias quos pariatur excepturi dolorem nihil ad dolores incidunt?
+        div.card
+          h3 Expert Teaching
+          div.card-box
+            img(src="/static/3.png")
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt possimus praesentium, doloremque sed itaque iure ratione provident fugiat ducimus sequi distinctio eveniet in nisi? Placeat consequatur ratione deserunt dolor minus!
+ section#sponsorsSection
+        h2 Our Sponsors
+          div#sponsors
+             img(src="/static/sponsor1.png", alt="sponsor_image" Class="spnonsor")
+             img(src="/static/sponsor2.png", alt="sponsor_image" Class="spnonsor")
+             img(src="/static/sponsor3.png", alt="sponsor_image" Class="spnonsor")
+             img(src="/static/sponsor4.png", alt="sponsor_image" Class="spnonsor")
